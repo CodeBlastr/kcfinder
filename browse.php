@@ -11,9 +11,6 @@
   *   @license http://www.opensource.org/licenses/lgpl-2.1.php LGPLv2
   *      @link http://kcfinder.sunhater.com
   */
-
 require "core/autoload.php";
 $browser = new browser();
 $browser->action();
-
-?>
