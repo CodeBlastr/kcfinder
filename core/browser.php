@@ -589,6 +589,7 @@ class browser extends uploader {
     }
 
     protected function act_check4Update() {
+        return json_encode(array('version' => false)); // Zuha Anti Hacking Fix (this line was not here at all)
         if ($this->config['denyUpdateCheck'])
             return json_encode(array('version' => false));
 
