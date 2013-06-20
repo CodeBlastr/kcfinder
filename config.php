@@ -13,7 +13,7 @@ $_CONFIG = array(
 
     'types' => array(
         // CKEditor & FCKEditor types
-        'files'   =>  "zip doc docx pdf xls odt csv psd ai fla eps png ppt html htm txt gif jpg jpeg wav mp3 mov mp4 swf avi wmv flv css js xml swf",
+        'files'   =>  "zip doc docx eot ttf otf pdf xls odt csv psd ai fla eps png ppt html htm txt gif jpg jpeg wav mp3 mov mp4 swf avi wmv flv css js xml swf",
         'flash'   =>  "swf",
         'img'  =>  "*img",
     ),
